@@ -40,5 +40,5 @@ end
 % syms y(t) z(t)
 % eqns = [diff(y,t)==z, diff(z,t)==-y];
 % sol = dsolve(eqns)
-
+plot (x,y);
 end

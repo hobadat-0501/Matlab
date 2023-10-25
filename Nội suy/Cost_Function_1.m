@@ -1,3 +1,4 @@
+%bình phương sai lệch
 function Cost_Function_1(x,y,x0)
 syms a b
 m=sum(x.^2);
@@ -15,4 +16,4 @@ y0=a*x0+b;
 disp('Ket qua xap xi: ') 
 disp(double(y0))
 end
-%Đỗ Đức
+
